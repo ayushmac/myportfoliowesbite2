@@ -1,0 +1,98 @@
+#about-section {
+  background: linear-gradient(to bottom, #888787, white);
+}
+
+.title {
+  font-family: "Roboto Serif", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.greet-about-title {
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  animation: fade-up 0.5s;
+}
+
+.about-body {
+  font-size: 1.2rem;
+  text-align: justify;
+  animation: fade-up 0.5s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*animation*/
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.about-card-bg {
+  background-color: white;
+
+  border: linear-gradient(to right, #ccc, #999) 1;
+  border-radius: 30px;
+  border-width: 5px;
+  animation: fade-up 2s;
+}
+
+.about-card-title {
+  font-family: "Roboto Serif", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  animation: fade-up 0.5s;
+}
+
+.about-card-text {
+  font-size: 1.2rem;
+  color: black;
+  animation: fade-up 0.5s;
+}
+
+.card-text i {
+  font-size: 1.2rem;
+}
+
+.card-text strong {
+  font-weight: bold;
+  animation: fade-up 1s;
+}
+
+.img-fluid {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid black;
+  background-color: black;
+  animation: fade-up 0.5s;
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.about-tech {
+  border-radius: 30px;
+  border-width: 5px;
+}

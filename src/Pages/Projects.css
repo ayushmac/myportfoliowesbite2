@@ -1,0 +1,53 @@
+#projects-section {
+  background: linear-gradient(to bottom, #888787, white);
+}
+/*animation*/
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.proj-card {
+  border: linear-gradient(to right, #ccc, #999) 1;
+  border-radius: 30px;
+  border-width: 5px;
+
+  animation: fade-up 1s;
+}
+
+.proj-card-container {
+  border: linear-gradient(to right, #ccc, #999) 1;
+  border-radius: 30px;
+  border-width: 5px;
+
+  animation: fade-up 3s;
+}
+
+.proj-title {
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  animation: fade-up 2s;
+}
+
+.proj-titles {
+  font-family: "Roboto Serif", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.proj-desc {
+  text-align: justify;
+}

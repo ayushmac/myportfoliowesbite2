@@ -1,0 +1,25 @@
+.card-bg-cont {
+  /* background: linear-gradient(to right, #000000, #333333); */
+}
+.cont-title {
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+.contact-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright-text {
+  color: gray;
+  font-size: small;
+}

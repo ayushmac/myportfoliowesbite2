@@ -1,0 +1,41 @@
+@media (min-width: 990px) {
+  .logo {
+    display: none;
+  }
+}
+@media (max-width: 995px) {
+  .hide-on-shortened {
+    display: none;
+  }
+}
+.alt-logo {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navbar-glass {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Adjust the alpha value for transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur value as desired */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/*animation*/
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.nav-anim {
+  animation: fade-up 2s;
+}

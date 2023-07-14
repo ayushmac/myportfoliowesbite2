@@ -1,0 +1,56 @@
+#education-section {
+  background: linear-gradient(to bottom, #797979, white);
+}
+
+.title-edu {
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fade-up 2s;
+}
+
+.card-bg-edu {
+  background-color: #ffffff;
+  border: linear-gradient(to right, #ccc, #999) 1;
+  border-radius: 30px;
+  border-width: 5px;
+  margin-bottom: 30px;
+  animation: fade-up 2s;
+}
+
+.card-text-edu {
+  color: black;
+}
+
+.education-list {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  animation: fade-up 3s;
+}
+
+.education-list strong {
+  font-family: "Roboto Serif", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-weight: bold;
+  animation: fade-up 3s;
+}
+
+.education-list p {
+  margin-bottom: 0.5rem;
+}
+
+/*animation*/
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
