@@ -8,7 +8,7 @@ const Projects = () => {
     <div id="projects-section">
       <Container>
         <br />
-        <Card className="proj-card-container mt-5 mb-5 px-5">
+        <Card className="proj-card-container mt-5 mb-5 px-1">
           <Card.Body>
             <h1 className="proj-title text-center mt-4 mb-5">
               <i className="bi bi-file-earmark-bar-graph"></i> Projects

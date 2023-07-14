@@ -17,7 +17,6 @@
   border: linear-gradient(to right, #ccc, #999) 1;
   border-radius: 30px;
   border-width: 5px;
-
   animation: fade-up 1s;
 }
 
@@ -49,5 +48,7 @@
 }
 
 .proj-desc {
+  hyphens: auto;
   text-align: justify;
+  text-justify: inter-word;
 }

@@ -23,6 +23,7 @@
 .about-body {
   font-size: 1.2rem;
   text-align: justify;
+  hyphens: auto;
   animation: fade-up 0.5s;
 }
 
